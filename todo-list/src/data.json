@@ -1,0 +1,81 @@
+[{
+   "id": 1,
+   "task": "Give baby a bath",
+   "complete": false
+ }, {
+   "id": 2,
+   "task": "Do laundry",
+   "complete": false
+ }, {
+   "id": 3,
+   "task": "Vacuum floor",
+   "complete": false
+ }, {
+   "id": 4,
+   "task": "Feed plants",
+   "complete": false
+ }, {
+   "id": 5,
+   "task": "Change the litter",
+   "complete": false
+ }, {
+   "id": 6,
+   "task": "Go on a run",
+   "complete": false
+ }, {
+   "id": 7,
+   "task": "Workout",
+   "complete": false
+ }, {
+   "id": 8,
+   "task": "Broom Floors",
+   "complete": false
+ }, {
+   "id": 9,
+   "task": "Take Garbage outside",
+   "complete": false
+ }, {
+   "id": 10,
+   "task": "Cook",
+   "complete": false
+ }, {
+   "id": 11,
+   "task": "Take nap",
+   "complete": false
+ }, {
+   "id": 12,
+   "task": "Read book",
+   "complete": false
+ }, {
+   "id": 13,
+   "task": "Relax",
+   "complete": false
+ }, {
+   "id": 14,
+   "task": "Clean Bathroom",
+   "complete": false
+ }, {
+   "id": 15,
+   "task": "Play",
+   "complete": false
+ }, {
+   "id": 16,
+   "task": "Learn a skill",
+   "complete": false
+ }, {
+   "id": 17,
+   "task": "Look for events",
+   "complete": false
+ }, {
+   "id": 18,
+   "task": "Take a shower",
+   "complete": false
+ }, {
+   "id": 19,
+   "task": "Watch something",
+   "complete": false
+ }, {
+   "id": 20,
+   "task": "Check To Do List",
+   "complete": false
+ }]
