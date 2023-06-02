@@ -1,5 +1,7 @@
 import React from 'react';
 import ToDo from './ToDo';
+import Button from '@mui/material/Button';
+
 
 const ToDoList = ({toDoList, handleToggle, handleFilter}) => {
    return (
@@ -9,7 +11,7 @@ const ToDoList = ({toDoList, handleToggle, handleFilter}) => {
                <ToDo todo={todo} handleToggle={handleToggle} handleFilter={handleFilter}/>
             )
          })}
-         <button style={{margin: '20px'}} onClick={handleFilter}>Clear Completed Tasks</button>
+         <Button variant="contained" color="error" size='medium' style={{margin: '20px'}} onClick={handleFilter}>Clear Completed Tasks</Button>
       </div>
    );
 };

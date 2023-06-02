@@ -1,26 +1,41 @@
-import React, { useState } from 'react';
+import Button from "@mui/material/Button";
+import TextField from "@mui/material/TextField";
+import React, { useState } from "react";
 
+const ToDoForm = ({ addTask }) => {
+  const [userInput, setUserInput] = useState("");
 
-const ToDoForm = ({addTask}) => {
+  const handleChange = (e) => {
+    setUserInput(e.currentTarget.value);
+  };
 
-   const [userInput, setUserInput] = useState('');
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    addTask(userInput);
+    setUserInput("");
+  };
 
-   const handleChange = (e) => {
-      setUserInput(e.currentTarget.value)
-   }
+  return (
+    <form onSubmit={handleSubmit}>
+      <TextField
+        type="text"
+        color="secondary"
+        size="small"
+        value={userInput}
+        onChange={handleChange}
+        placeholder="Enter New Task"
+      />
+      <Button
+        type="submit"
+        variant="contained"
+        color="success"
+        size="medium"
+        style={{ marginTop: "auto", marginLeft: "5px" }}
+      >
+        Add
+      </Button>
+    </form>
+  );
+};
 
-   const handleSubmit = (e) => {
-      e.preventDefault();
-      addTask(userInput);
-      setUserInput("");
-   }
-
-   return(
-      <form onSubmit={handleSubmit}>
-         <input value={userInput} type='text' onChange={handleChange} placeholder='Enter New Task' />
-         <button>Add</button>
-      </form>
-   )
-}
-
-export default ToDoForm
+export default ToDoForm;
